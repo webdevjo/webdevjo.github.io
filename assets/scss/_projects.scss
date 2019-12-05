@@ -48,9 +48,37 @@
                             font-size: 22px;
                         }
                     }
-                    .description {
+                    .project-description {
+                        margin: 25px 0 0 0;
                         p {
                             line-height: 25px;
+                            margin: 0 0 7px 0;
+                        }
+                        a.project-link {
+                            z-index: 1010;
+                            font-size: 18px;
+                            color: #fffffe;
+                            margin: 25px 0 0 0;                    
+                            position: relative;
+                            display: inline-block;
+                            transition: width 0.4s;
+                            &:hover {
+                                &:after {
+                                    width: 100%;
+                                }
+                            }
+                            &:after {
+                                top: 50%;
+                                content: "";
+                                width: 20%;
+                                height: 46px;
+                                display: block;
+                                z-index: -1000;
+                                position: absolute;
+                                background-color: #7f5af0;
+                                transform: translateY(-50%);
+                                transition: width 0.4s;
+                            }
                         }
                     }
                 }

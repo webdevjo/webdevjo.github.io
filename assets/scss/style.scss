@@ -2,6 +2,7 @@
 @import "hero";
 @import "services";
 @import "projects";
+@import "about";
 @import "footer";
 
 * {
@@ -10,7 +11,14 @@
     box-sizing: border-box;
 }
 
-a {
+html {
+    scroll-behavior: smooth;
+}
+
+a,
+a:visited,
+a:active,
+a:link {
     color: #94a1b2;
     text-decoration: none;
 }
