@@ -1,0 +1,27 @@
+#hero {
+    #content{
+        min-height: 90vh;
+        align-items: center;
+        .titles {
+            h1 {
+                font-size: 52px;
+                position: relative;                
+                span {
+                    display: block;
+                }
+                &:before {
+                    top: 50%;
+                    content: "";
+                    opacity: 0.8;                 
+                    width: 120px;
+                    height: 200px;
+                    z-index: -1000;
+                    display: block;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    background-color: #7f5af0;
+                }
+            }
+        }
+    }
+}

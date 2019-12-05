@@ -1,0 +1,25 @@
+#services {
+    #content {
+        .titles {
+            h2 {
+                font-size: 42px;
+                text-align: left;
+                position: relative;
+                padding: 0 0 0 80px;
+                &:before {
+                    top: 50%;
+                    left: 0;
+                    content: "";
+                    opacity: 0.8;                 
+                    width: 70px;
+                    height: 6px;
+                    z-index: -1000;
+                    display: block;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    background-color: #2cb67d;
+                }
+            }
+        }
+    }
+}

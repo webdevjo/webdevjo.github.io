@@ -1,0 +1,74 @@
+@import "header";
+@import "hero";
+@import "services";
+@import "projects";
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #94a1b2;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    color: #94a1b2;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    background-color: #16161a;
+}
+
+#container {
+    width: 1200px;
+    max-width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titles {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fffffe;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+}
