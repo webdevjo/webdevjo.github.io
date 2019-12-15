@@ -3,7 +3,11 @@
         height: 75px;
         align-items: center;
         justify-content: space-between;
-        .logo-area {            
+        .logo-area,
+        .menu-area {
+            width: auto;
+        }
+        .logo-area { 
             a {
                 color: #fffffe;
                 font-size: 32px;
@@ -17,7 +21,6 @@
             }
         }
         .menu-area {
-            width: 70%;
             padding: 5px 0 0 0;
             text-align: right;
             a {

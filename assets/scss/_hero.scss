@@ -4,21 +4,40 @@
         align-items: center;
         justify-content: center;
         .hero-image {
-            align-self: flex-end;
+            width: 40%;
             figure {
                 img {
                     width: 320px;
                     height: auto;
+                    margin: 0 auto;
                 }
             }
         }
         .titles {
-            width: 80%;
+            width: 60%;
             padding: 30px 50px;
             h1 {
                 font-size: 24px;
                 font-weight: 400;
                 text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #hero {
+        #content {
+            .hero-image,
+            .titles {
+                width: 100%;
+                padding: 0;
+            }
+            .titles {
+                order: 1;
+            }
+            .hero-image {
+                order: 2;
             }
         }
     }
