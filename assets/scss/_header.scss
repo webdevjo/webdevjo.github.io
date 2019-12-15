@@ -1,14 +1,19 @@
 #header {
     #content {
-        height: 92px;
+        height: 75px;
         align-items: center;
         justify-content: space-between;
         .logo-area {            
             a {
                 color: #fffffe;
-                font-size: 26px;
+                font-size: 32px;
                 font-weight: 700;
+                font-family: 'Josefin Sans', sans-serif;
                 display: inline-block;
+                span {
+                    font-size: 48px;
+                    color: #7f5af0;
+                }
             }
         }
         .menu-area {
@@ -16,6 +21,7 @@
             padding: 5px 0 0 0;
             text-align: right;
             a {
+                font-size: 12px;
                 color: #fffffe;
                 display: inline-block;
                 transition: color 0.4s;
