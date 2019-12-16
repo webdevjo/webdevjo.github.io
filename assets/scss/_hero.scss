@@ -3,41 +3,63 @@
         min-height: calc(100vh - 75px);
         align-items: center;
         justify-content: center;
-        .hero-image {
-            width: 40%;
-            figure {
-                img {
-                    width: 320px;
-                    height: auto;
-                    margin: 0 auto;
-                }
-            }
-        }
         .titles {
-            width: 60%;
-            padding: 30px 50px;
+            text-align: center;
             h1 {
-                font-size: 24px;
-                font-weight: 400;
-                text-align: center;
+                font-size: 48px;
+                position: relative;
+                text-align: inherit;
+                display: inline-block;
+                transition: font-size 0.4s;
+                &:after {
+                    top: 60%;
+                    width: 100%;
+                    height: 15px;
+                    content: "";
+                    z-index: -1;
+                    display: block;
+                    position: absolute;
+                    background-color: #7f5af0;
+                }
             }
         }
     }
 }
 
-@media (max-width: 576px) {
+@media ( max-width: 575.98px ) {
     #hero {
         #content {
-            .hero-image,
             .titles {
-                width: 100%;
-                padding: 0;
+                h1 {
+                    font-size: 22px;
+                    line-height: 30px;
+                }
             }
+        }
+    }
+}
+
+@media ( min-width: 576px ) and (max-width: 767.98px ) {
+    #hero {
+        #content {
             .titles {
-                order: 1;
+                h1 {
+                    font-size: 28px;
+                    line-height: 37px;
+                }
             }
-            .hero-image {
-                order: 2;
+        }
+    }
+}
+
+@media ( min-width: 768px ) and ( max-width: 991.98px ) {
+    #hero {
+        #content {
+            .titles {
+                h1 {
+                    font-size: 36px;
+                    line-height: 30px;
+                }
             }
         }
     }

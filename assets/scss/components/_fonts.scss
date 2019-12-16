@@ -1,15 +1,22 @@
 @font-face {
-    font-family: "Roboto";
+    font-family: "Nanum Gothic";
     font-style: normal;
     font-weight: 400;
-    src: url( '../fonts/Roboto-Regular.ttf' );
+    src: url( '../fonts/NanumGothic-Regular.ttf' );
 }
 @font-face {
-    font-family: "Roboto";
+    font-family: "Nanum Gothic";
     font-style: normal;
     font-weight: 700;
-    src: url( '../fonts/Roboto-Bold.ttf' );
+    src: url( '../fonts/NanumGothic-Bold.ttf' );
 }
+@font-face {
+    font-family: "Nanum Gothic";
+    font-style: normal;
+    font-weight: 800;
+    src: url( '../fonts/NanumGothic-ExtraBold.ttf' );
+}
+
 @font-face {
     font-family: "Josefin Sans";
     font-style: normal;
@@ -21,4 +28,11 @@
     font-style: normal;
     font-weight: 700;
     src: url( '../fonts/JosefinSans-Bold.ttf' );
+}
+
+@font-face {
+    font-family: "Spartan MB";
+    font-style: normal;
+    font-weight: 900;
+    src: url( '../fonts/SpartanMB-Extra-Bold.otf' );
 }
