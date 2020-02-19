@@ -1,38 +1,62 @@
 @font-face {
-    font-family: "Nanum Gothic";
+    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    src: url( '../fonts/NanumGothic-Regular.ttf' );
+    font-display: swap;
+    src: url('../fonts/josefin-sans-v14-latin-regular.eot'); 
+    src: local('Josefin Sans Regular'), local('JosefinSans-Regular'),
+        url('../fonts/josefin-sans-v14-latin-regular.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/josefin-sans-v14-latin-regular.woff2') format('woff2'), 
+        url('../fonts/josefin-sans-v14-latin-regular.woff') format('woff'), 
+        url('../fonts/josefin-sans-v14-latin-regular.ttf') format('truetype'), 
+        url('../fonts/josefin-sans-v14-latin-regular.svg#JosefinSans') format('svg'); 
 }
 @font-face {
-    font-family: "Nanum Gothic";
+    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
-    src: url( '../fonts/NanumGothic-Bold.ttf' );
+    font-display: swap;
+    src: url('../fonts/josefin-sans-v14-latin-700.eot'); 
+    src: local('Josefin Sans Bold'), local('JosefinSans-Bold'),
+        url('../fonts/josefin-sans-v14-latin-700.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/josefin-sans-v14-latin-700.woff2') format('woff2'), 
+        url('../fonts/josefin-sans-v14-latin-700.woff') format('woff'), 
+        url('../fonts/josefin-sans-v14-latin-700.ttf') format('truetype'), 
+        url('../fonts/josefin-sans-v14-latin-700.svg#JosefinSans') format('svg'); 
 }
 @font-face {
-    font-family: "Nanum Gothic";
-    font-style: normal;
-    font-weight: 800;
-    src: url( '../fonts/NanumGothic-ExtraBold.ttf' );
-}
-
-@font-face {
-    font-family: "Josefin Sans";
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url( '../fonts/JosefinSans-Regular.ttf' );
+    src: url('../fonts/roboto-v20-latin-regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin-regular.woff') format('woff'),
+        url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'),
+        url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
 }
 @font-face {
-    font-family: "Josefin Sans";
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: url( '../fonts/JosefinSans-Bold.ttf' );
+    src: url('../fonts/roboto-v20-latin-700.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('../fonts/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin-700.woff') format('woff'),
+        url('../fonts/roboto-v20-latin-700.ttf') format('truetype'),
+        url('../fonts/roboto-v20-latin-700.svg#Roboto') format('svg');
 }
-
 @font-face {
-    font-family: "Spartan MB";
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    src: url( '../fonts/SpartanMB-Extra-Bold.otf' );
+    src: url('../fonts/roboto-v20-latin-900.eot');
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('../fonts/roboto-v20-latin-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-v20-latin-900.woff2') format('woff2'),
+        url('../fonts/roboto-v20-latin-900.woff') format('woff'),
+        url('../fonts/roboto-v20-latin-900.ttf') format('truetype'),
+        url('../fonts/roboto-v20-latin-900.svg#Roboto') format('svg');
 }
