@@ -5,12 +5,15 @@
         min-height: calc(100vh - 75px);
         grid-template-columns: 1fr;
         .hero-text {
+            max-width: 85%;
             .headings {
                 h1 {
-                    color: #ffffff;
+                    font-size: 58px;
+                    color: #FFFFFF;
+                    font-family: "Old Standard TT", serif;
                     span {
-                        color: #7f5af0;
                         display: block;
+                        color: #FCF086;
                     }
                 }
             }
@@ -24,17 +27,17 @@
                     width: 100%;
                     display: grid;
                     border-radius: 4px;
-                    border:  1px solid #7f5af0;
+                    border:  1px solid #FCF086;
                     margin: 0 0 20px 0;
                     a, span {
                         font-size: 14px;
                         padding: 7px 20px;
                         text-align: center;
                         display: inline-block;
-                        color: #ffffff;
+                        color: #FFFFFF;
                     }
                     a {
-                        background-color: #7f5af0;
+                        background-color: #FCF086;
                     }
                 }
             }
