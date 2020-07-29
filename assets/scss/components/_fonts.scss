@@ -11,6 +11,7 @@
         url("../fonts/josefin-sans-v14-latin-regular.ttf") format("truetype"),
         url("../fonts/josefin-sans-v14-latin-regular.svg#JosefinSans") format("svg");
 }
+
 @font-face {
     font-family: "Josefin Sans";
     font-style: normal;
@@ -24,63 +25,37 @@
         url("../fonts/josefin-sans-v14-latin-700.ttf") format("truetype"),
         url("../fonts/josefin-sans-v14-latin-700.svg#JosefinSans") format("svg");
 }
+
 @font-face {
-    font-family: "Old Standard TT";
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/old-standard-tt-v12-latin-regular.eot");
-    src: local("Old Standard TT Regular"), local("OldStandardTT-Regular"),
-        url("../fonts/old-standard-tt-v12-latin-regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/old-standard-tt-v12-latin-regular.woff2") format("woff2"),
-        url("../fonts/old-standard-tt-v12-latin-regular.woff") format("woff"),
-        url("../fonts/old-standard-tt-v12-latin-regular.ttf") format("truetype"),
-        url("../fonts/old-standard-tt-v12-latin-regular.svg#OldStandardTT") format("svg");
+    src: url("../fonts/inter-v2-latin-regular.eot");
+    src: local(""), url("../fonts/inter-v2-latin-regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/inter-v2-latin-regular.woff2") format("woff2"),
+        url("../fonts/inter-v2-latin-regular.woff") format("woff"),
+        url("../fonts/inter-v2-latin-regular.ttf") format("truetype"),
+        url("../fonts/inter-v2-latin-regular.svg#Inter") format("svg");
 }
+
 @font-face {
-    font-family: "Old Standard TT";
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/old-standard-tt-v12-latin-700.eot");
-    src: local("Old Standard TT Bold"), local("OldStandardTT-Bold"),
-        url("../fonts/old-standard-tt-v12-latin-700.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/old-standard-tt-v12-latin-700.woff2") format("woff2"),
-        url("../fonts/old-standard-tt-v12-latin-700.woff") format("woff"),
-        url("../fonts/old-standard-tt-v12-latin-700.ttf") format("truetype"),
-        url("../fonts/old-standard-tt-v12-latin-700.svg#OldStandardTT") format("svg");
+    src: url("../fonts/inter-v2-latin-700.eot");
+    src: local(""), url("../fonts/inter-v2-latin-700.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/inter-v2-latin-700.woff2") format("woff2"), url("../fonts/inter-v2-latin-700.woff") format("woff"),
+        url("../fonts/inter-v2-latin-700.ttf") format("truetype"),
+        url("../fonts/inter-v2-latin-700.svg#Inter") format("svg");
 }
+
 @font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/roboto-v20-latin-regular.eot");
-    src: local("Roboto"), local("Roboto-Regular"),
-        url("../fonts/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
-        url("../fonts/roboto-v20-latin-regular.woff") format("woff"),
-        url("../fonts/roboto-v20-latin-regular.ttf") format("truetype"),
-        url("../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
-}
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/roboto-v20-latin-700.eot");
-    src: local("Roboto Bold"), local("Roboto-Bold"),
-        url("../fonts/roboto-v20-latin-700.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
-        url("../fonts/roboto-v20-latin-700.woff") format("woff"),
-        url("../fonts/roboto-v20-latin-700.ttf") format("truetype"),
-        url("../fonts/roboto-v20-latin-700.svg#Roboto") format("svg");
-}
-@font-face {
-    font-family: "Roboto";
+    font-family: "Inter";
     font-style: normal;
     font-weight: 900;
-    src: url("../fonts/roboto-v20-latin-900.eot");
-    src: local("Roboto Black"), local("Roboto-Black"),
-        url("../fonts/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/roboto-v20-latin-900.woff2") format("woff2"),
-        url("../fonts/roboto-v20-latin-900.woff") format("woff"),
-        url("../fonts/roboto-v20-latin-900.ttf") format("truetype"),
-        url("../fonts/roboto-v20-latin-900.svg#Roboto") format("svg");
+    src: url("../fonts/inter-v2-latin-900.eot");
+    src: local(""), url("../fonts/inter-v2-latin-900.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/inter-v2-latin-900.woff2") format("woff2"), url("../fonts/inter-v2-latin-900.woff") format("woff"),
+        url("../fonts/inter-v2-latin-900.ttf") format("truetype"),
+        url("../fonts/inter-v2-latin-900.svg#Inter") format("svg");
 }

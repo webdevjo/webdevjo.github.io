@@ -1,46 +1,62 @@
 #hero {
-    #content{
+    .row {
         row-gap: 25px;
         align-content: center;
         min-height: calc(100vh - 75px);
         grid-template-columns: 1fr;
         .hero-text {
-            max-width: 85%;
             .headings {
                 h1 {
-                    font-size: 58px;
-                    color: #FFFFFF;
-                    font-family: "Old Standard TT", serif;
+                    font-weight: 900;
+                    font-size: 128px;
+                    text-align: center;
                     span {
-                        display: block;
-                        color: #FCF086;
+                        display: inline;
+                        color: $mainTextColor;
+                        &:first-child {
+                            animation: animated 9s infinite;
+                        }
+                        &:last-child {
+                            animation: animated-with-delay 9s infinite;
+                        }
                     }
                 }
             }
-        }
-        .projects {
-            ul {
-                display: grid;
-                column-gap: 10px;
-                grid-template-columns: 1fr 1fr 1fr;
-                li {
-                    width: 100%;
-                    display: grid;
-                    border-radius: 4px;
-                    border:  1px solid #FCF086;
-                    margin: 0 0 20px 0;
-                    a, span {
-                        font-size: 14px;
-                        padding: 7px 20px;
-                        text-align: center;
-                        display: inline-block;
-                        color: #FFFFFF;
-                    }
-                    a {
-                        background-color: #FCF086;
-                    }
+            .btn-area {
+                margin-top: 25px;
+                .btn {
+                    width: 250px;
+                    margin: 0 auto;
+                    color: $strongWhite;
                 }
             }
         }
+    }
+}
+
+@keyframes animated {
+    from {
+        // background: linear-gradient(135deg, #333333 10%, #dd1818 40%, #333333 80%);
+        // background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+        background: linear-gradient(#9b51e0 30%,#0095ff 80%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    to {
+        background: none;
+    }
+}
+
+@keyframes animated-with-delay {
+    from {
+        background: none;
+    }
+    to {
+        // background: linear-gradient(135deg, #333333 10%, #dd1818 40%, #333333 80%);
+        background: linear-gradient(to right, #dce35b, #45b649);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }

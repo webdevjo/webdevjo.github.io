@@ -1,0 +1,104 @@
+@media (max-width: 575.98px) {
+    #hero {
+        .row {
+            .hero-text {
+                .headings {
+                    h1 {
+                        font-size: 42px;
+                        span {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #about {
+        .row {
+            grid-template-columns: 1fr;
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #hero {
+        .row {
+            .hero-text {
+                .headings {
+                    h1 {
+                        font-size: 62px;
+                        span {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #about {
+        .row {
+            grid-template-columns: 1fr;
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #hero {
+        .row {
+            .hero-text {
+                .headings {
+                    h1 {
+                        font-size: 82px;
+                        span {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #about {
+        .row {
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    #about {
+        .row {
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(4, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}

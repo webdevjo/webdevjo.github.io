@@ -1,0 +1,85 @@
+#about {
+    .row {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        grid-template-columns: 250px 1fr;
+        .texts {
+            position: relative;
+            p {
+                font-size: 18px;
+            }
+            .dots {
+                width: 15px;
+                height: 15px;
+                display: block;
+                margin-top: 15px;
+                border-radius: 100%;
+                background: linear-gradient(#9b51e0 30%, #0095ff 80%);
+                &:after,
+                &:before {
+                    content: "";
+                    width: 15px;
+                    height: 15px;
+                    display: block;
+                    border-radius: 100%;
+                    position: absolute;
+                }
+                &:after {
+                    left: 20px;
+                    background-color: #9b51e0;
+                }
+                &:before {
+                    left: 40px;
+                    background-color: #0095ff;
+                }
+            }
+        }
+        .skills {
+            .texts {
+                p {
+                    line-height: 28px;
+                }
+            }
+            .languages {
+                .headings {
+                    margin: 25px 0;
+                    h3 {
+                        font-size: 26px;
+                        font-weight: 900;
+                    }
+                }
+                ul {
+                    gap: 20px;
+                    display: grid;
+                    justify-content: space-between;
+                    grid-template-columns: repeat(4, 175px);
+                    li {
+                        width: auto;
+                        height: 120px;
+                        padding: 10px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        border-radius: 6px;
+                        align-items: center;
+                        align-content: center;
+                        justify-content: center;
+                        background-color: #f5f5f5;
+                        svg {
+                            width: 48px;
+                            height: 48px;
+                        }
+                        &:nth-of-type(3) {
+                            fill: #da8eb6;
+                        }
+                        p {
+                            width: 100%;
+                            margin-top: 4px;
+                            font-weight: 700;
+                            text-align: center;
+                        };
+                    }
+                }
+            }
+        }
+    }
+}

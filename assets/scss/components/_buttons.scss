@@ -1,0 +1,31 @@
+.btn {
+    padding: 9px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.4s;
+    &:hover {
+        background-color: $hover;
+    }
+}
+
+.btn-rounded {
+    border-radius: 32px;
+}
+
+.btn-square {
+    border-radius: 2px;
+}
+
+.btn-md {
+    height: 49px;
+}
+
+.btn-lg {
+    height: 62px;
+}
+
+.btn-with-bg {
+    background-color: $details;
+}

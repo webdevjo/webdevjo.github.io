@@ -1,5 +1,5 @@
 #header {
-    #content {
+    .row {
         height: 75px;
         align-items: center;
         grid-template-columns: 1fr 1fr;
@@ -9,7 +9,6 @@
         }
         .logo-area { 
             a {
-                color: #ffffff;
                 font-size: 32px;
                 font-weight: 700;
                 font-family: 'Josefin Sans', sans-serif;
@@ -17,7 +16,7 @@
                 display: inline-block;
                 span {
                     font-size: 48px;
-                    color: #FCF086;
+                    color: $details;
                 }
             }
         }
@@ -27,11 +26,11 @@
             a {
                 font-size: 16px;
                 font-weight: 400;
-                color: #ffffff;
+                color: #333333;
                 display: inline-block;
                 transition: color 0.4s;
                 &:hover {
-                    color: #FCF086;
+                    color: $details;
                 }
             }
             p {

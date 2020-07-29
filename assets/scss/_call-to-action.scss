@@ -1,0 +1,23 @@
+#call-to-action {
+    background-color: #1d1d1d;
+    .row {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        .texts {
+            p {
+                font-size: 22px;
+                text-align: center;
+                color: $strongWhite;
+                margin-bottom: 10px;
+            }
+        }
+        .btn-area {
+            margin-top: 25px;
+            .btn {
+                width: 250px;
+                margin: 0 auto;
+                color: $strongWhite;
+            }
+        }
+    }
+}
