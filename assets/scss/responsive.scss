@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     #hero {
-        .row {
+        .wrapper {
             .hero-text {
                 .headings {
                     h1 {
@@ -15,7 +15,7 @@
     }
 
     #about {
-        .row {
+        .wrapper {
             grid-template-columns: 1fr;
             .skills {
                 margin-top: 15px;
@@ -31,7 +31,7 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     #hero {
-        .row {
+        .wrapper {
             .hero-text {
                 .headings {
                     h1 {
@@ -45,7 +45,7 @@
         }
     }
     #about {
-        .row {
+        .wrapper {
             grid-template-columns: 1fr;
             .skills {
                 margin-top: 15px;
@@ -61,7 +61,7 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     #hero {
-        .row {
+        .wrapper {
             .hero-text {
                 .headings {
                     h1 {
@@ -75,7 +75,7 @@
         }
     }
     #about {
-        .row {
+        .wrapper {
             .skills {
                 margin-top: 15px;
                 .languages {
@@ -90,7 +90,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
     #about {
-        .row {
+        .wrapper {
             .skills {
                 margin-top: 15px;
                 .languages {

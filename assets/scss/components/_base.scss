@@ -34,16 +34,14 @@ img {
     display: block;
 }
 
-.container {
-    width: 96%;
+.wrapper {
+    width: 100%;
+    display: grid;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.row {
-    width: 100%;
-    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .headings {
