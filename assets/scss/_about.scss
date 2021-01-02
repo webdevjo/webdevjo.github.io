@@ -83,3 +83,65 @@
         }
     }
 }
+
+@media (max-width: 575.98px) {
+    #about {
+        .wrapper {
+            grid-template-columns: 1fr;
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #about {
+        .wrapper {
+            grid-template-columns: 1fr;
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #about {
+        .wrapper {
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #about {
+        .wrapper {
+            .skills {
+                margin-top: 15px;
+                .languages {
+                    ul {
+                        grid-template-columns: repeat(4, 1fr);
+                    }
+                }
+            }
+        }
+    }
+}
