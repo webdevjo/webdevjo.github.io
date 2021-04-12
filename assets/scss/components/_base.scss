@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    color: $mainTextColor;
+    color: $primary_color;
     font-size: 16px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
@@ -37,7 +37,7 @@ img {
 .wrapper {
     width: 100%;
     display: grid;
-    max-width: 1024px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -46,4 +46,41 @@ img {
 
 .headings {
     width: 100%;
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 900;
+        font-family: "Gilroy", sans-serif;
+    }
+}
+
+.scroll-to-top-btn {
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: inline-flex;
+    transition: all 0.25s ease-in-out;
+
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3em 3em 0;
+    border-radius: 50%;
+    padding: 0.25em;
+    width: 64px;
+    height: 64px;
+    background-color: $details;
+    &.show-btn {
+        opacity: 1;
+        visibility: visible;
+    }
+    &.hide-btn {
+        opacity: 0;
+        visibility: hidden;
+    }
+    svg {
+        width: 34px;
+        color: $strong_white;
+    }
+    &:hover {
+        background-color: $hover;
+    }
 }

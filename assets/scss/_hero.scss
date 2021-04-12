@@ -1,75 +1,113 @@
 #hero {
     .wrapper {
-        row-gap: 25px;
+        column-gap: 25px;
+        align-items: center;
         align-content: center;
-        min-height: calc(100vh - 75px);
-        grid-template-columns: 1fr;
+        min-height: calc(100vh - 95px);
+        grid-template-columns: repeat(2, 1fr);
         .hero-text {
+            width: 75%;
+            justify-self: center;
             .headings {
+                margin-bottom: 25px;
                 h1 {
+                    font-size: 34px;
                     font-weight: 900;
-                    font-size: 62px;
-                    text-align: center;
-                    span {
-                        display: inline;
-                        color: $mainTextColor;
-                        &:first-child {
-                            animation: animated 9s infinite;
-                        }
+                    font-family: 'Gilroy', sans-serif;
+                    line-height: 1.2em;
+                    text-align: left;
+                }
+                p {
+                    font-size: 24px;
+                    color: $secondary_color;
+                    font-family: 'Gilroy', sans-serif;
+                    &:last-child {
+                        margin-top: 25px;
+                        font-size: 34px;
+                        font-weight: 900;
+                        color: $primary_color;
+                    }
+                }
+            }
+            .social {
+                .texts {
+                    margin-bottom: 10px;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+                ul.social-list {
+                    gap: 10px;
+                    display: flex;
+                    li {
                         &:last-child {
-                            animation: animated-with-delay 9s infinite;
+                            margin-right: 0;
+                        }
+                        a {
+                            transition: color 0.2s ease-in-out;
+                            svg {
+                                width: 20px;
+                            }
+                            &:hover {
+                                color: $hover;
+                            }
                         }
                     }
                 }
             }
-            .btn-area {
-                margin-top: 25px;
-                .btn {
-                    width: 250px;
-                    margin: 0 auto;
-                    color: $strongWhite;
+        }
+        .hero-navigation {
+            justify-self: center;
+            ul {
+                li {
+                    margin: 20px 0;
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    a {
+                        font-size: 48px;
+                        font-weight: 900;
+                        font-family: 'Gilroy', sans-serif;
+                        transition: color 0.2s ease-in-out;
+                        span {
+                            font-size: 24px;
+                            font-weight: 900;
+                        }
+                        &:hover {
+                            color: $hover;
+                        }
+                    }
                 }
             }
         }
     }
 }
 
-@keyframes animated {
-    from {
-        // background: linear-gradient(135deg, #333333 10%, #dd1818 40%, #333333 80%);
-        // background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
-        background: linear-gradient(#9b51e0 30%,#0095ff 80%);
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    to {
-        background: none;
-    }
-}
-
-@keyframes animated-with-delay {
-    from {
-        background: none;
-    }
-    to {
-        // background: linear-gradient(135deg, #333333 10%, #dd1818 40%, #333333 80%);
-        background: linear-gradient(to right, #dce35b, #45b649);
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-}
-
 @media (max-width: 575.98px) {
     #hero {
         .wrapper {
+            grid-template-columns: 1fr;
+            .hero-text,
+            .hero-navigation {
+                justify-self: flex-start;
+            }
             .hero-text {
+                width: 90%;
                 .headings {
                     h1 {
-                        font-size: 42px;
-                        span {
-                            display: block;
+                        font-size: 24px;
+                    }
+                }
+            }
+            .hero-navigation {
+                margin-top: 25px;
+                ul {
+                    li {
+                        a {
+                            font-size: 28px;
                         }
                     }
                 }
@@ -81,29 +119,25 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     #hero {
         .wrapper {
+            grid-template-columns: 1fr;
+            .hero-text,
+            .hero-navigation {
+                justify-self: flex-start;
+            }
             .hero-text {
+                width: 90%;
                 .headings {
                     h1 {
-                        font-size: 50px;
-                        span {
-                            display: block;
-                        }
+                        font-size: 26px;
                     }
                 }
             }
-        }
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    #hero {
-        .wrapper {
-            .hero-text {
-                .headings {
-                    h1 {
-                        font-size: 62px;
-                        span {
-                            display: block;
+            .hero-navigation {
+                margin-top: 25px;
+                ul {
+                    li {
+                        a {
+                            font-size: 30px;
                         }
                     }
                 }

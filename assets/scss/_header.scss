@@ -1,13 +1,14 @@
 #header {
     .wrapper {
-        height: 75px;
+        height: 95px;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
-        .logo-area,
-        .menu-area {
+        grid-template-columns: 1fr;
+        .logo-container,
+        .nav-container {
             width: auto;
         }
-        .logo-area { 
+        .logo-container { 
+            justify-self: center;
             a {
                 font-size: 32px;
                 font-weight: 700;
@@ -20,14 +21,14 @@
                 }
             }
         }
-        .menu-area {
+        .nav-container {
             padding: 5px 0 0 0;
             justify-self: flex-end;
             a {
+                display: flex;
                 font-size: 16px;
                 font-weight: 400;
                 color: #333333;
-                display: inline-block;
                 transition: color 0.4s;
                 &:hover {
                     color: $details;

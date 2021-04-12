@@ -1,0 +1,16 @@
+#cases {
+    .wrapper {
+        min-height: 100vh;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        align-items: center;
+        align-content: center;
+        grid-template-columns: 1fr;
+        .headings {
+            h2 {
+                font-size: 32px;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,4 +1,16 @@
 @font-face {
+	font-weight: 900;
+	font-style: normal;
+	font-family: 'Gilroy';
+    font-display: swap;
+	src: url('../fonts/Gilroy-Black.eot');
+	src: local('Gilroy Black'), local('Gilroy-Black'),
+		url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Black.woff') format('woff'),
+		url('../fonts/Gilroy-Black.ttf') format('truetype');
+}
+
+@font-face {
     font-family: "Josefin Sans";
     font-style: normal;
     font-weight: 400;
