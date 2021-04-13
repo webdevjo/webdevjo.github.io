@@ -53,21 +53,19 @@ img {
 }
 
 .scroll-to-top-btn {
-    right: 0;
-    bottom: 0;
-    position: fixed;
-    display: inline-flex;
-    transition: all 0.25s ease-in-out;
-
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    margin: 0 3em 3em 0;
-    border-radius: 50%;
-    padding: 0.25em;
+    right: 25px;
+    bottom: 25px;
     width: 64px;
     height: 64px;
+    padding: 5px;
+    position: fixed;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 100%;
+    justify-content: center;
     background-color: $details;
+    transition: all 0.25s ease-in-out;
     &.show-btn {
         opacity: 1;
         visibility: visible;
