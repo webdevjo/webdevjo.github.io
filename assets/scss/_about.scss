@@ -30,16 +30,17 @@
             justify-self: center;
             ul {
                 display: grid;
-                align-content: center;
                 grid-template-columns: repeat(4, 120px);
                 li {
+                    width: 120px;
                     height: 120px;
                     display: flex;
+                    align-items: center;
                     justify-content: center;
                     svg {
                         width: 48px;
                         height: auto;
-                        align-self: center;
+                        max-height: 48px;
                     }
                 }
             }
@@ -53,10 +54,11 @@
             gap: 45px;
             grid-template-columns: 1fr;
             .languages { 
-                grid-template-columns: repeat(4, 110px);
+                grid-template-columns: repeat(4, 100px);
                 ul {
                     li {
-                        height: 110px;
+                        width: 100px;
+                        height: 100px;
                     }
                 }
             }
