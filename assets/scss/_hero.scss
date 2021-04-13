@@ -16,6 +16,7 @@
                     font-family: 'Gilroy', sans-serif;
                     line-height: 1.2em;
                     text-align: left;
+                    margin-top: 25px;
                 }
                 p {
                     font-size: 24px;
@@ -98,11 +99,10 @@
                 width: 90%;
                 .headings {
                     h1 {
-                        font-size: 18px;
-                        color: chartreuse;
+                        font-size: 24px;
                     }
                     p {
-                        font-size: 18px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -112,6 +112,9 @@
                     li {
                         a {
                             font-size: 26px;
+                            span {
+                                font-size: 18px;
+                            }
                         }
                     }
                 }
