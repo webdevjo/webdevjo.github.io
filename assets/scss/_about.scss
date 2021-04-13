@@ -54,8 +54,8 @@
             gap: 45px;
             grid-template-columns: 1fr;
             .languages { 
-                grid-template-columns: repeat(3, 100px);
                 ul {
+                    grid-template-columns: repeat(4, 100px);
                     li {
                         width: 100px;
                         height: 100px;
