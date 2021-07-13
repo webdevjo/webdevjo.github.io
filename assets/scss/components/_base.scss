@@ -64,8 +64,11 @@ img {
 .scroll-to-top-btn {
    right: 25px;
    bottom: 25px;
+
    width: 64px;
    height: 64px;
+   
+   border: 0;
    padding: 5px;
    position: fixed;
    cursor: pointer;
