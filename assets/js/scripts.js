@@ -1,27 +1,20 @@
-const scroll_to_top_btn = document.getElementById('scroll-to-top-btn');
+const scrollToTopButton = document.getElementById('scroll-to-top-btn');
 
-const scroll_function = () => {
-    let current_scroll_value = window.scrollY;
+window.onscroll = function () {
+   scrollFunction();
+}
 
-    if (current_scroll_value > 0) {
-        scroll_to_top_btn.className = "scroll-to-top-btn show-btn";
-    } else {
-        scroll_to_top_btn.className = "scroll-to-top-btn hide-btn";
-    }
-};
+function scrollFunction() {
+   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollToTopButton.classList.add("show-btn");
+      scrollToTopButton.classList.remove("hide-btn");
+   } else {
+      scrollToTopButton.classList.add("hide-btn");
+      scrollToTopButton.classList.remove("show-btn");
+   }
+}
 
-window.addEventListener("scroll", scroll_function);
-
-const scrollToTop = () => {
-    const pixels = document.documentElement.scrollTop || document.body.scrollTop;
-
-    if (pixels > 0) {
-        window.requestAnimationFrame(scrollToTop);
-        window.scrollTo(0, pixels - pixels / 10);
-    }
-};
-
-scroll_to_top_btn.onclick = function (e) {
-    e.preventDefault();
-    scrollToTop();
+function scrollToTop() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
 }
